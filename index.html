@@ -9,23 +9,7 @@
 </head>
 
 <body>
-    <h1>test sw2</h1>
-    <button onclick='showNotificationFromSw()'>showNotificationFromSw</button>
-    <script src='reg-service-worker.js'></script>
-    <script>
-
-        async function showNotificationFromSw() {
-            let reg = await navigator.serviceWorker.getRegistration()
-            var options = {
-                // icon: './assets/images/android_048.png',
-                body: '歡迎加入 Angular 社群',
-                image: 'https://augt-forum-upload.s3-ap-southeast-1.amazonaws.com/original/1X/6b3cd55281b7bedea101dc36a6ef24034806390b.png'
-            };
-            let title=`mytitle ${new Date()}`
-            reg.showNotification(title, options);
-        }
-
-    </script>
+    <h1>test sw2vvvvv</h1>
 </body>
 
 </html>
